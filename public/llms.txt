@@ -1,0 +1,72 @@
+# מעשר — Generative Engine Optimization Map
+
+> A financial coaching service offering a new program or package. The business focuses on guiding clients through economic and financial challenges, providing personalized support and expertise to help them achieve financial goals.
+
+---
+
+## Pages
+
+### בית
+https://-8a8517ac.zappy5.app
+גלי את הכוח שבאימון פיננסי אישי עם מעשר. התוכנית החדשה שלנו מעניקה ליווי צמוד, כלים מעשיים ותמיכה מקצועית שתעזור לך לצלוח אתגרים כלכליים ולהגשים את החלומות שלך. הצטרפי עוד היום!
+
+### תודה רבה - הפנייה התקבלה | מעשר
+https://-8a8517ac.zappy5.app/thank-you
+תודה על פנייתך. הודעתך התקבלה בהצלחה וצוות מעשר ייצור איתך קשר בהקדם לגבי ייעוץ פיננסי לעסקים ולנשים.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-8a8517ac.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-8a8517ac.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-8a8517ac.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-8a8517ac.zappy5.app
+- Endpoint: https://-8a8517ac.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About מעשר
+A financial coaching service offering a new program or package. The business focuses on guiding clients through economic and financial challenges, providing personalized support and expertise to help them achieve financial goals.
+
+## Services/Products
+- ליווי כלכלי
+
+## Target Audience
+- משפחות צעירות בתכנון תקציב
+- משפחות משרתי מילואים
+
+## Industry
+Financial Coaching
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-8a8517ac.zappy5.app/sitemap.xml
+- Robots: https://-8a8517ac.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-8a8517ac.zappy5.app/llms-full.txt
