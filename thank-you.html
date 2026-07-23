@@ -656,13 +656,13 @@ section[data-zappy-section] { display: block !important; grid-template-columns: 
 .card:hover, .service-card:hover, .blog-card:hover, .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
 .card img, .service-card img, .blog-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
 .btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
-.btn-primary { background-color: #6b7c5c; color: white; }
+.btn-primary { background-color: #95B29B; color: white; }
 .btn-primary:hover { filter: brightness(1.1); }
 /* Pricing grid specific */
 .pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
 .pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
 .pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
-.pricing-card.featured, .pricing-card.popular { border: 2px solid #6b7c5c !important; position: relative; }
+.pricing-card.featured, .pricing-card.popular { border: 2px solid #95B29B !important; position: relative; }
 .pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
 .pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
 .pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
@@ -672,10 +672,10 @@ section[data-zappy-section] { display: block !important; grid-template-columns: 
 .pricing-card .features-list { list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important; text-align: right; }
 .pricing-card .features-list li { padding: 0.5rem 0; }
 .pricing-card .features-list li.disabled { color: #9ca3af; }
-.pricing-card .popular-badge { background: #6b7c5c; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
+.pricing-card .popular-badge { background: #95B29B; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
 .pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
-.btn-outline { background: transparent !important; border: 2px solid #6b7c5c !important; color: #6b7c5c !important; }
-.btn-outline:hover { background: #6b7c5c !important; color: white !important; }
+.btn-outline { background: transparent !important; border: 2px solid #95B29B !important; color: #95B29B !important; }
+.btn-outline:hover { background: #95B29B !important; color: white !important; }
 .card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
 @media (max-width: 768px) {
   .container { padding: 0 1rem; }
@@ -1350,7 +1350,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     <div class="container" style="max-width: 640px; margin-left: auto; margin-right: auto; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 24px;">
       
       <!-- Success Icon -->
-      <div style="width: 88px; height: 88px; background-color: #6b7c5c !important; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 8px; box-shadow: 0 8px 30px rgba(107, 124, 92, 0.25);">
+      <div style="width: 88px; height: 88px; background-color: #95B29B !important; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 8px; box-shadow: 0 8px 30px rgba(107, 124, 92, 0.25);">
         <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="20 6 9 17 4 12"></polyline>
         </svg>
@@ -1359,13 +1359,13 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       <!-- Headings -->
       <div style="display: flex; flex-direction: column; gap: 8px;">
         <h1 style="font-family: system-ui, sans-serif; font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 800; color: #2c2c2c !important; margin: 0; line-height: 1.1;">תודה רבה!</h1>
-        <p style="font-size: clamp(1.25rem, 3vw, 1.5rem); font-weight: 500; color: #4a5e3a !important; margin: 0;">הפנייה שלך התקבלה בהצלחה</p>
+        <p style="font-size: clamp(1.25rem, 3vw, 1.5rem); font-weight: 500; color: #3F4341 !important; margin: 0;">הפנייה שלך התקבלה בהצלחה</p>
       </div>
 
       <!-- Ticket Number Card -->
-      <div style="background-color: #ffffff !important; border: 2px dashed #8fa870; border-radius: 12px; padding: 24px 48px; margin: 16px auto; display: inline-block; box-shadow: 0 4px 20px rgba(0,0,0,0.04); max-width: 100%;">
-        <span style="display: block; font-size: 0.875rem; color: #4a5e3a !important; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; font-weight: 600;">מספר הפנייה שלך</span>
-        <span id="ticket-number-display" style="display: block; font-family: monospace; font-size: 2.25rem; font-weight: 700; color: #6b7c5c !important; letter-spacing: 2px; line-height: 1;">---</span>
+      <div style="background-color: #ffffff !important; border: 2px dashed #C8B07A; border-radius: 12px; padding: 24px 48px; margin: 16px auto; display: inline-block; box-shadow: 0 4px 20px rgba(0,0,0,0.04); max-width: 100%;">
+        <span style="display: block; font-size: 0.875rem; color: #3F4341 !important; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; font-weight: 600;">מספר הפנייה שלך</span>
+        <span id="ticket-number-display" style="display: block; font-family: monospace; font-size: 2.25rem; font-weight: 700; color: #95B29B !important; letter-spacing: 2px; line-height: 1;">---</span>
       </div>
 
       <!-- Message -->
@@ -1375,10 +1375,10 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
       <!-- Buttons -->
       <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; width: 100%; margin-top: 8px;">
-        <a href="/" style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 32px; background-color: #6b7c5c; color: #ffffff !important; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(107, 124, 92, 0.2); border: 2px solid #6b7c5c; min-width: 200px; flex: 1 1 auto; max-width: 280px;">
+        <a href="/" style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 32px; background-color: #95B29B; color: #ffffff !important; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(107, 124, 92, 0.2); border: 2px solid #95B29B; min-width: 200px; flex: 1 1 auto; max-width: 280px;">
           חזרה לעמוד הבית
         </a>
-        <a href="/" style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 32px; background-color: transparent; color: #6b7c5c !important; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; border: 2px solid #6b7c5c; min-width: 200px; flex: 1 1 auto; max-width: 280px;">
+        <a href="/" style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 32px; background-color: transparent; color: #95B29B !important; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; border: 2px solid #95B29B; min-width: 200px; flex: 1 1 auto; max-width: 280px;">
           יצירת קשר נוספת
         </a>
       </div>

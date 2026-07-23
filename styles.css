@@ -68,14 +68,14 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #6b7c5c;
-  --secondary: #4a5e3a;
-  --accent: #8fa870;
-  --bg-light: #ffffff;
-  --bg-dark: #4a5e3a;
-  --text-dark: #4a4a4a;
+--primary: #95B29B;
+  --secondary: #3F4341;
+  --accent: #C8B07A;
+  --bg-light: #FFFFFF;
+  --bg-dark: #3F4341;
+  --text-dark: #4A4A4A;
   --text-light: #ffffff;
-  --text-muted: #707070;
+  --text-muted: #5a5a5a;
   --border-light: #898b8d;
   --border-dark: #9da7b7;
   --nav-bg: transparent;
@@ -106,13 +106,13 @@
   --font-family: 'Heebo', sans-serif;
   --font-primary: 'Heebo', sans-serif;
   --font-body: 'Heebo', sans-serif;
-  --primary-color: #6b7c5c;
-  --secondary-color: #4a5e3a;
-  --accent-color: #8fa870;
-  --background-color: #ffffff;
-  --surface-color: #f8f9fa;
-  --text-color: #4a4a4a;
-  --text-secondary-color: #707070;
+  --primary-color: #95B29B;
+  --secondary-color: #3F4341;
+  --accent-color: #C8B07A;
+  --background-color: #FFFFFF;
+  --surface-color: #E8E1D6;
+  --text-color: #4A4A4A;
+  --text-secondary-color: #5a5a5a;
 }
 
 *, *::before, *::after {
@@ -384,14 +384,14 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: transparent;
   --nav-text: #ffffff;
   --nav-text-hover: #8fa870;
-  --primary: #6b7c5c;
-  --secondary: #4a5e3a;
-  --accent: #8fa870;
-  --bg-light: #ffffff;
-  --bg-dark: #4a5e3a;
-  --text-dark: #4a4a4a;
+  --primary: #95B29B;
+  --secondary: #3F4341;
+  --accent: #C8B07A;
+  --bg-light: #FFFFFF;
+  --bg-dark: #3F4341;
+  --text-dark: #4A4A4A;
   --text-light: #ffffff;
-  --text-muted: #707070;
+  --text-muted: #5a5a5a;
   --border-light: #898b8d;
   --border-dark: #9da7b7;
   --cta-bg: var(--bg-light);
@@ -646,14 +646,14 @@ body {
   --nav-bg: transparent;
   --nav-text: #ffffff;
   --nav-text-hover: #8fa870;
-  --primary: #6b7c5c;
-  --secondary: #4a5e3a;
-  --accent: #8fa870;
-  --bg-light: #ffffff;
-  --bg-dark: #4a5e3a;
-  --text-dark: #4a4a4a;
+  --primary: #95B29B;
+  --secondary: #3F4341;
+  --accent: #C8B07A;
+  --bg-light: #FFFFFF;
+  --bg-dark: #3F4341;
+  --text-dark: #4A4A4A;
   --text-light: #ffffff;
-  --text-muted: #707070;
+  --text-muted: #5a5a5a;
   --border-light: #898b8d;
   --border-dark: #9da7b7;
   --cta-bg: var(--bg-light);
@@ -973,7 +973,7 @@ body {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #6b7c5c));
+  outline: 2px solid var(--primary-color, var(--primary, #95B29B));
   outline-offset: 2px;
 }
 
@@ -2050,14 +2050,14 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
    ============================================ */
 
 :root {
-  --primary: #6b7c5c;
-  --secondary: #4a5e3a;
-  --accent: #8fa870;
-  --bg-light: #ffffff;
-  --bg-dark: #4a5e3a;
-  --text-dark: #4a4a4a;
+  --primary: #95B29B;
+  --secondary: #3F4341;
+  --accent: #C8B07A;
+  --bg-light: #FFFFFF;
+  --bg-dark: #3F4341;
+  --text-dark: #4A4A4A;
   --text-light: #ffffff;
-  --text-muted: #707070;
+  --text-muted: #5a5a5a;
   --border-light: #898b8d;
   --border-dark: #9da7b7;
   --radius: 8px;
@@ -2354,7 +2354,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #8fa870); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #C8B07A); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2385,7 +2385,7 @@ hr.section-flourish, .section-flourish, [data-section-divider] {
   height: 2px;
   margin: 1.25rem auto;
   border: 0;
-  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #8AA469)) 30%, var(--accent, var(--primary, #8AA469)) 70%, transparent);
+  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #C5AB72)) 30%, var(--accent, var(--primary, #C5AB72)) 70%, transparent);
   border-radius: 999px;
   opacity: 0.85;
 }
@@ -2458,7 +2458,7 @@ main { flex: 1 0 auto; }
 /* hero */
 .index-hero-section {
   background-color: var(--bg-dark);
-  background-image: linear-gradient(180deg, #6B7C5C 0%, #4A5E3A 100%);
+  background-image: linear-gradient(180deg, #95B29B 0%, #3F4341 100%);
   color: var(--text-light);
   padding-block: 96px;
   position: relative;
@@ -2779,7 +2779,7 @@ main { flex: 1 0 auto; }
 [data-layout-spec="בית-hero"] .home-hero-section__headline-on-the,
 [data-layout-spec="בית-hero"] [class*="hero"][class*="anywhere-word"],
 [data-layout-spec="בית-hero"] [class*="hero"][class*="headline-anywhere"],
-[data-layout-spec="בית-hero"] [class*="hero"][class*="headline-on-the"] { color: var(--secondary, #4a5e3a) !important; transform: rotate(-1deg) !important; transform-origin: 50% 45% !important; display: block !important; }
+[data-layout-spec="בית-hero"] [class*="hero"][class*="headline-on-the"] { color: var(--secondary, #3F4341) !important; transform: rotate(-1deg) !important; transform-origin: 50% 45% !important; display: block !important; }
 [data-layout-spec="בית-hero"] .home-hero-section__headline-move,
 [data-layout-spec="בית-hero"] [class*="hero"][class*="headline-move"] { color: var(--text-dark, #1a1a1a) !important; transform: rotate(1deg) !important; transform-origin: 50% 55% !important; display: block !important; }
 [data-layout-spec="בית-hero"] .home-hero-section__band,
@@ -3157,7 +3157,7 @@ main { flex: 1 0 auto; }
   align-items: flex-start;
   gap: 16px;
   padding: 24px;
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: var(--radius-card);
   border: 1px solid var(--border-light);
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
@@ -3818,7 +3818,7 @@ main { flex: 1 0 auto; }
 
 /* stats */
 .index-stats-section {
-  background-color: #8fa870;
+  background-color: #C8B07A;
   color: var(--text-light);
   padding: 80px 16px;
   position: relative;
@@ -3992,7 +3992,7 @@ main { flex: 1 0 auto; }
   padding: 12px 16px;
   border-radius: var(--radius-input, 8px);
   border: 1px solid var(--border-light);
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: var(--text-dark);
   transition: var(--transition-default, all 0.2s ease);
   outline: none;
@@ -4446,11 +4446,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #6b7c5c;
+  --cc-btn-primary-bg: #95B29B;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #6b7c5c;
-  --cc-btn-primary-hover-bg: #4a5e3a;
-  --cc-btn-primary-hover-border: #4a5e3a;
+  --cc-btn-primary-border: #95B29B;
+  --cc-btn-primary-hover-bg: #3F4341;
+  --cc-btn-primary-hover-border: #3F4341;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -4464,7 +4464,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #6b7c5c;
+  --cc-toggle-on-bg: #95B29B;
 }
 
 #cc-main,
@@ -4577,7 +4577,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #6b7c5c !important;
+  color: #5a7c61 !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -4587,7 +4587,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #4a5e3a !important;
+  color: #3F4341 !important;
   background-color: transparent !important;
 }
 
@@ -4765,7 +4765,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* Basic Accessibility Enhancements */
 :root {
-  --accessibility-focus: #4a5e3a;
+  --accessibility-focus: #3F4341;
 }
 
 /* Skip link styles */
@@ -4888,9 +4888,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 #mic-access-tool-general-button svg line,
 #mic-access-tool-general-button svg polyline,
 #mic-access-tool-general-button svg g {
-  fill: #4a5e3a !important;
-  stroke: #4a5e3a !important;
-  color: #4a5e3a !important;
+  fill: #3F4341 !important;
+  stroke: #3F4341 !important;
+  color: #3F4341 !important;
 }
 
 /* Target images if the icon is an img instead of SVG */
@@ -4911,7 +4911,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #4a5e3a !important;
+  background: #3F4341 !important;
   color: white !important;
 }
 
@@ -4938,8 +4938,8 @@ div[id*="mic-access-tool-box"] .header * {
 #mic-access-tool-box button:hover,
 div[id*="mic-access-tool-box"] button.active,
 div[id*="mic-access-tool-box"] button:hover {
-  border-color: #4a5e3a !important;
-  color: #4a5e3a !important;
+  border-color: #3F4341 !important;
+  color: #3F4341 !important;
   background-color: rgba(61, 79, 46, 0.1) !important;
 }
 
@@ -4948,7 +4948,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #4a5e3a !important;
+  background: #3F4341 !important;
   color: white !important;
 }
 
@@ -5282,13 +5282,21 @@ nav.navbar .sub-menu li a:hover { color: #617547 !important; background-color: r
   }
 }
 /* === NAVBAR STYLE OVERRIDES END === */
+
+
+
+
 /* === BUTTON TEXT OVERRIDES START === */
+.btn-primary,
+.btn--primary,
+[class*="btn-primary"],
+[class*="btn--primary"] { color: #333333 !important; }
 .btn-accent,
 .btn--accent,
 [class*="btn-accent"],
 [class*="btn--accent"] { color: #333333 !important; }
 .navbar .nav-cta-btn,
-.nav-cta-btn { color: #FFFFFF !important; }
+.nav-cta-btn { color: #333333 !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
 /* mobile-submenu-overflow-fix */
