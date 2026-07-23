@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap');
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
@@ -99,7 +99,9 @@
   --transition-default: all 0.2s ease;
   --transition-hover: all 0.2s ease;
   --nav-overlay-opacity: 0.35;
-}
+
+  --heading-font: 'Heebo', sans-serif;
+  --font-heading: 'Heebo', sans-serif;}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -165,7 +167,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   color: var(--text-dark);
   letter-spacing: -0.02em;
 }
@@ -2728,7 +2730,7 @@ main { flex: 1 0 auto; }
 [data-layout-spec="בית-hero"] h1 .hero-subhead,
 [data-layout-spec="בית-hero"] h1 .home-hero-section__subhead,
 [data-layout-spec="בית-hero"] h1 .font-accent {
-  font-family: var(--accent-font, "Permanent Marker", "Bebas Neue", cursive) !important;
+  font-family: 'Heebo', sans-serif;
   color: var(--primary, #ef3b24) !important;
   font-size: clamp(2.8rem, 7vw, 5.8rem) !important;
   line-height: 0.82 !important;
@@ -2742,7 +2744,7 @@ main { flex: 1 0 auto; }
 [data-layout-spec="בית-hero"] > :not(h1):not(.hero-logotype) [class*="hero"][class*="subhead"],
 [data-layout-spec="בית-hero"] h3.hero-subhead,
 [data-layout-spec="בית-hero"] .hero-copy .hero-subhead {
-  font-family: var(--font-body, system-ui, sans-serif) !important;
+  font-family: 'Heebo', sans-serif;
   color: var(--text-dark, #1a1a1a) !important;
   font-size: clamp(0.95rem, 1.3vw, 1.25rem) !important;
   line-height: 1.35 !important;
@@ -2814,7 +2816,7 @@ main { flex: 1 0 auto; }
 }
 
 .index-about-section__headline h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 800;
   font-size: clamp(2.35rem, 5vw, 3.75rem);
   line-height: 1.25;
